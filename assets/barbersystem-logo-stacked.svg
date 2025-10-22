@@ -1,0 +1,26 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="700" height="700" viewBox="0 0 700 700">
+  <defs>
+    <linearGradient id="g2" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#2563eb"/>
+      <stop offset="100%" stop-color="#06b6d4"/>
+    </linearGradient>
+  </defs>
+  <rect width="700" height="700" fill="none"/>
+  <g transform="translate(350,150)">
+    <g transform="translate(-90,0)">
+      <rect x="0" y="0" rx="24" ry="24" width="180" height="250" fill="#0b1220"/>
+      <rect x="10" y="18" rx="16" ry="16" width="160" height="214" fill="url(#g2)"/>
+      <rect x="0" y="-16" rx="10" ry="10" width="180" height="36" fill="#0b1220"/>
+      <rect x="0" y="230" rx="10" ry="10" width="180" height="36" fill="#0b1220"/>
+      <g opacity="0.18">
+        <path d="M10,60 L170,20 L170,60 L10,100 Z" fill="#ffffff"/>
+        <path d="M10,120 L170,80 L170,120 L10,160 Z" fill="#ffffff"/>
+        <path d="M10,180 L170,140 L170,180 L10,220 Z" fill="#ffffff"/>
+      </g>
+    </g>
+    <g text-anchor="middle" transform="translate(0,340)">
+      <text x="0" y="0" font-family="Inter, system-ui, -apple-system, Segoe UI, Roboto, Helvetica, Arial" font-size="92" font-weight="800" fill="#0b1220">Barber</text>
+      <text x="0" y="100" font-family="Inter, system-ui, -apple-system, Segoe UI, Roboto, Helvetica, Arial" font-size="92" font-weight="800" fill="url(#g2)">System</text>
+    </g>
+  </g>
+</svg>

@@ -1,0 +1,281 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+  <head>
+    <meta charset="utf-8" />
+    <title>BarberSystem — Sistema para Barbearias</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="description" content="Sistema completo de agendamentos, gestão e faturamento para barbearias." />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700;800&display=swap" rel="stylesheet" />
+    <link rel="icon" href="/assets/barbersystem-logo-icon.svg" type="image/x-icon" />
+    <link rel="stylesheet" href="style.css" />
+    <script defer="" src="script.js"></script>
+  </head>
+  <body>
+    <header class="nav">
+      <div class="container nav-inner">
+        <a href="#" class="brand"> <img src="/assets/barbersystem-logo-icon.svg" alt="BarberSystem" height="50" /> BarberSystem </a>
+        <nav class="nav-links">
+          <a href="#features">Recursos</a>
+          <a href="#plans">Planos</a>
+          <a href="#faq">FAQ</a>
+          <a class="btn outline" href="#contato">Falar com vendas</a>
+        </nav>
+      </div>
+    </header>
+
+    <section class="hero">
+      <div class="container">
+        <span class="chip">Sistema para Barbearias • Agendamentos • Faturamento</span>
+        <div class="grid" style="margin-top: 16px">
+          <div>
+            <h1 class="title">Organize sua barbearia, <strong>lote a agenda</strong> e acompanhe o <strong>caixa em tempo real</strong>.</h1>
+            <p class="subtitle">
+              Agendamentos online, lembretes por WhatsApp/SMS, gestão de clientes e serviços, relatórios de faturamento e mais — tudo em um único
+              painel.
+            </p>
+            <div class="cta">
+              <a class="btn" href="#plans">Ver planos</a>
+            </div>
+            <div class="note">Sem taxa de instalação. Cancele quando quiser.</div>
+          </div>
+          <aside class="hero-card">
+            <div class="stat">
+              <div>
+                <div class="muted">Tempo de marcação</div>
+                <div class="k">~ 18s</div>
+              </div>
+              <span class="pill">+ Rápido que planilha</span>
+            </div>
+            <div class="stat">
+              <div>
+                <div class="muted">Redução de faltas</div>
+                <div class="k">− 35%</div>
+              </div>
+              <span class="pill">Lembretes automáticos</span>
+            </div>
+            <div class="stat">
+              <div>
+                <div class="muted">Facilidade/Practicidade</div>
+                <div class="k">Plus</div>
+              </div>
+              <span class="pill">Alto nível de practicidade</span>
+            </div>
+          </aside>
+        </div>
+      </div>
+    </section>
+
+    <section id="features" class="section">
+      <div class="container">
+        <h2>Principais recursos</h2>
+        <p class="muted">Tudo que você precisa para operar e crescer sua barbearia.</p>
+        <div class="features">
+          <div class="feature">
+            <div class="pill">Agenda Inteligente</div>
+            <h3>Agendamentos online</h3>
+            <p class="muted">Site/WhatsApp para o cliente marcar; confirmação e relembrar automático; fila de espera e bloqueios por barbeiro.</p>
+          </div>
+          <div class="feature">
+            <div class="pill">Gestão</div>
+            <h3>Barbeiros & Serviços</h3>
+            <p class="muted">Turnos, comissão por serviço, tempo de execução por serviço, tabelas de preço e tags.</p>
+          </div>
+          <div class="feature">
+            <div class="pill">Vendas</div>
+            <h3>Caixa e Faturamento</h3>
+            <p class="muted">Relatórios por período, por barbeiro e por serviço. Ticket médio, curva por dia da semana e metas.</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="plans" class="section">
+      <div class="container">
+        <h2>Planos e preços</h2>
+        <p class="muted">Escolha o plano ideal. Você pode mudar a qualquer momento.</p>
+
+        <div style="display: flex; align-items: center; gap: 10px; margin: 10px 0 6px">
+          <span class="muted">Cobrança:</span>
+          <label class="switch">
+            <input id="togglePeriod" type="checkbox" />
+            <span>Mensal</span>
+            <span class="pill">Anual <strong style="color: #6efacc">−15%</strong></span>
+          </label>
+        </div>
+
+        <div class="pricing">
+          <article class="plan" data-plan="starter">
+            <span class="badge">Essencial</span>
+            <h3>Starter</h3>
+            <div class="price" data-price-month="49" data-price-year="41">R$ 49</div>
+            <div class="period">/ mês</div>
+            <ul class="ul">
+              <li><span class="check">✓</span> 1 barbearia • até 2 barbeiros</li>
+              <li><span class="check">✓</span> Agendamentos e confirmação</li>
+              <li><span class="check">✓</span> Lembretes WhatsApp/SMS <small>(cobrança por envio)</small></li>
+              <li><span class="check">✓</span> Relatórios básicos</li>
+            </ul>
+            <a
+              class="btn"
+              href="mailto:barbersystem@proton.me
+                ?subject=Quero%20o%20Plano%20Starter
+                &body=Ol%C3%A1%2C%20gostaria%20de%20come%C3%A7ar%20no%20Plano%20Starter.%0A%0A
+                Nome%3A%20%0A
+                Telefone%2FWhatsApp%3A%20%0A
+                Barbearia%3A%20%0A
+                N%C3%BAmero%20de%20profissionais%3A%20%0A
+                Cidade%2FUF%3A%20%0A
+                Instagram%2Fsite%3A%20%0A%0A
+                Recursos%20de%20interesse%3A%20Agenda%2C%20Notifica%C3%A7%C3%B5es%2C%20Relat%C3%B3rios%20b%C3%A1sicos.%0A%0A
+                Mensagem%3A%20"
+            >
+              Começar no Starter
+            </a>
+          </article>
+
+          <article class="plan popular" data-plan="pro">
+            <span class="badge">Mais escolhido</span>
+            <h3>Pro</h3>
+            <div class="price" data-price-month="99" data-price-year="84">R$ 99</div>
+            <div class="period">/ mês</div>
+            <ul class="ul">
+              <li><span class="check">✓</span> 1 barbearia • até 6 barbeiros</li>
+              <li><span class="check">✓</span> Gestão de comissão e metas</li>
+              <li><span class="check">✓</span> Relatórios avançados (barbeiro, serviço, DOW)</li>
+              <li><span class="check">✓</span> Confirmação 2 etapas + avaliações</li>
+              <li><span class="check">✓</span> Suporte prioritário</li>
+            </ul>
+            <a
+              class="btn"
+              href="mailto:barbersystem@proton.me
+                ?subject=Assinar%20o%20Plano%20Pro
+                &body=Ol%C3%A1%2C%20quero%20assinar%20o%20Plano%20Pro.%0A%0A
+                Nome%3A%20%0A
+                Telefone%2FWhatsApp%3A%20%0A
+                Barbearia%3A%20%0A
+                N%C3%BAmero%20de%20profissionais%3A%20%0A
+                Cidade%2FUF%3A%20%0A
+                Instagram%2Fsite%3A%20%0A%0A
+                Funcionalidades%20priorit%C3%A1rias%3A%20Relat%C3%B3rios%20avanzados%2C%20comiss%C3%B5es%2C%20confirma%C3%A7%C3%A3o%20em%202%20etapas%2C%20...%0A%0A
+                Mensagem%3A%20"
+            >
+              Assinar Pro
+            </a>
+          </article>
+
+          <article class="plan" data-plan="business">
+            <span class="badge">Expansão</span>
+            <h3>Business</h3>
+            <div class="price" data-price-month="199" data-price-year="169">R$ 199</div>
+            <div class="period">/ mês</div>
+            <ul class="ul">
+              <li><span class="check">✓</span> Multiunidades • barbeiros ilimitados</li>
+              <li><span class="check">✓</span> Relatórios consolidados</li>
+              <li><span class="check">✓</span> Integrações (API/Webhooks)</li>
+              <li><span class="check">✓</span> White-label e domínio próprio</li>
+              <li><span class="check">✓</span> SLA comercial</li>
+            </ul>
+            <a
+              class="btn"
+              href="mailto:barbersystem@proton.me
+                ?subject=Falar%20com%20vendas%20%E2%80%94%20Plano%20Business
+                &body=Ol%C3%A1%2C%20tenho%20interesse%20no%20Plano%20Business.%0A%0A
+                Nome%3A%20%0A
+                Telefone%2FWhatsApp%3A%20%0A
+                Barbearia%2FGrupo%3A%20%0A
+                Qtd.%20de%20unidades%3A%20%0A
+                Usu%C3%A1rios%20estimados%3A%20%0A
+                Cidade%2FUF%3A%20%0A
+                Instagram%2Fsite%3A%20%0A%0A
+                Necessidades%3A%20Multiunidades%2C%20SLA%2C%20White-label%2C%20API%2FWebhooks%2C%20relat%C3%B3rios%20custom%2C%20...%0A%0A
+                Mensagem%3A%20"
+            >
+              Falar com vendas
+            </a>
+          </article>
+        </div>
+
+        <div class="compare">
+          <table>
+            <thead>
+              <tr>
+                <th>Recurso</th>
+                <th>Starter</th>
+                <th>Pro</th>
+                <th>Business</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <td>Barbeiros</td>
+                <td>Até 2</td>
+                <td>Até 6</td>
+                <td>Ilimitado</td>
+              </tr>
+              <tr>
+                <td>Relatórios</td>
+                <td>Diário/Período</td>
+                <td>+ por barbeiro/serviço</td>
+                <td>+ consolidação multiunidade</td>
+              </tr>
+              <tr>
+                <td>Lembretes WhatsApp/SMS</td>
+                <td>✓ (pago por envio)</td>
+                <td>✓ (pago por envio)</td>
+                <td>✓ (franquia opcional)</td>
+              </tr>
+              <tr>
+                <td>Integrações (API)</td>
+                <td><span class="x">—</span></td>
+                <td>Webhooks básicos</td>
+                <td>API completa + Webhooks</td>
+              </tr>
+              <tr>
+                <td>Suporte</td>
+                <td>Comercial</td>
+                <td>Prioritário</td>
+                <td>Prioritário + SLA</td>
+              </tr>
+            </tbody>
+          </table>
+        </div>
+      </div>
+    </section>
+
+    <section id="faq" class="section">
+      <div class="container">
+        <h2>Dúvidas frequentes</h2>
+        <div class="faq">
+          <div class="q">
+            <strong>Funciona no celular?</strong>
+            <div class="a">Sim! O painel é responsivo e os clientes marcam pelo celular sem instalar nada.</div>
+          </div>
+          <div class="q">
+            <strong>Consigo emitir relatórios de comissão?</strong>
+            <div class="a">Nos planos Pro e Business você configura regras de comissão e exporta os relatórios.</div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <footer id="contato">
+      <div class="container foot">
+        <div>
+          <div class="brand">
+            <a href="#" class="brand"> <img src="/assets/barbersystem-logo-icon.svg" alt="BarberSystem" height="50" /> BarberSystem </a> BarberSystem
+          </div>
+          <small>Sistema de gestão e agendamentos para barbearias.</small>
+        </div>
+        <div>
+          <div style="display: flex; gap: 10px; margin-top: 8px">
+            <a class="btn outline" href="mailto:barbersystem@proton.me">Envie um email</a>
+          </div>
+        </div>
+      </div>
+      <div class="container" style="margin-top: 14px">
+        <small>© <span id="y"></span> BarberSystem. Todos os direitos reservados.</small>
+      </div>
+    </footer>
+  </body>
+</html>
